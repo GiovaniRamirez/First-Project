@@ -1,0 +1,206 @@
+body{
+    margin:0 auto;
+    background-color:crimson;
+}
+
+.nav-bar{
+    background-color:rgba(0,0,0,.5);
+    height:150px;
+    width:100%;
+    z-index: 1;
+}
+.first-image{
+    height: 150px;
+    width: 300px;
+}
+
+.navi-list{
+    float:right;
+    margin-right:15px;
+    /* margin-top:50px; */
+    text-align: center;
+   
+}
+.list-item{
+    padding-right: 30px;
+    display:inline-block;
+    margin-right:10px;
+    border:3px red;
+    text-align: center;
+    height:20px;
+    width:45;
+
+}
+
+    
+
+.navi-list a {
+    text-decoration: none;
+    color:white;
+}
+.navi-list a:hover{
+text-decoration:underline;
+color:white;
+font-size:27px;
+}
+
+.section-image, .section-p {
+    border: solid green 5px;
+    float: left;
+    height: 345px;
+    width: 400px;
+    margin-left: 170px;
+}
+.anime-img{
+    height:300px;
+    width: 100%;
+}
+
+/* .section, .section-p{
+   width: 500px; 
+   height:500px;
+   border: solid green; */
+
+.section-p p{
+    height: 500px;
+    width: 100%;
+    padding: 3px;
+}
+.footer {
+    background-color: indianred;
+    height:80px;
+    width:100%;
+    position: static;
+}
+.footer div{
+    width: 33%;
+    float: left;
+}
+.footer-input, .social, .copy{
+    display:block;
+    text-align:center;
+}
+
+.social{
+    margin-top:25px;
+}
+.copy{
+    margin-top:25px;
+    float:right;
+}
+
+
+.footer-input input{
+    height: 30px;
+    width:330px;
+}
+
+
+
+.footer-input button {
+    height:30px;
+    width:55px;
+}
+.footer-input input, .footer-input button{
+    display:inline-block;
+    margin-top: 25px;
+}
+button{
+    display: inline-block;
+}
+
+
+
+
+
+.main-text{
+    text-align: center;
+}
+
+
+
+.main-box{
+    height:200px;
+    width: 300px;
+    position:absolute;
+    top:250;
+    left:50%;
+}
+.main{
+    height:1400px;
+    width:100%;
+    background-image: url(../img/waifu.jpg);
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    position:relative;}
+
+
+    /******* About Styles ***********/
+    .container{
+        height:650px;
+        width:100%;
+        margin-top: 300px;
+
+    }
+    .container-box{
+        height:0px;
+        width:30%;
+        border: 7px solid mediumaquamarine;
+        float:left;
+        margin-left: 25px;
+    }
+    .container-box img{
+        height: 300px;
+    }
+
+    .container-box p{
+        text-align: left;
+    }
+    .container-box img, .container-box audio,.container-box iframe{
+        display: block;
+        margin:auto;
+        margin-top: 20px;
+    }
+    .about-header{
+        background-color: midnightblue;
+        color:yellow;
+        position: absolute;
+        top: 150px;
+        left:44%;
+    }
+    .about-header h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+
+/* Contact Styles */
+.contact-section{
+    height: 850px;
+    width:100%;
+    background-color: crimson;
+    position: relative;
+    margin-top: 300px;
+}
+
+.contact-box{
+    height:400px;
+    width: 40%;
+    border: 3px solid palegoldenrod;
+    position:absolute;
+}
+.map{
+    left:70px;
+}
+.form{
+    right:70px;
+    height: 700px;
+}
+.contact-header h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: gold;
+}
